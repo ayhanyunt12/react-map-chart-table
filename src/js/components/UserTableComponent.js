@@ -51,12 +51,7 @@ const userTableComponent = (props) => {
         <Table celled>
             <Table.Header>
                 <Table.Row>
-                    <Table.HeaderCell>
-                        <Checkbox
-                            slider
-                            readOnly
-                        />
-                    </Table.HeaderCell>
+                    <Table.HeaderCell/>
                     <Table.HeaderCell>Id</Table.HeaderCell>
                     <Table.HeaderCell>Username</Table.HeaderCell>
                     <Table.HeaderCell>Name</Table.HeaderCell>
